@@ -78,6 +78,13 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Model\Forwarder.cs" />
+    <Compile Include="Model\Invoice.cs" />
+    <Compile Include="Model\Product.cs" />
+    <Compile Include="Model\ProductCategory.cs" />
+    <Compile Include="Model\ProductType.cs" />
+    <Compile Include="Model\Supplier.cs" />
+    <Compile Include="ViewModel\ApplicationViewModel.cs" />
     <Compile Include="View\MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
@@ -109,9 +116,7 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="ViewModel\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Content Include="Model\Praxix_Database.mdf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
